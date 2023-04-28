@@ -1,5 +1,5 @@
 # opening the list of elves and adding data to a list (split by lines)
-with open('d1p1.txt') as file:
+with open('d1.txt') as file:
     data = [i for i in file.read().split("\n")]
 
 # the current calorie count for the iteration + the high count (most calories)
